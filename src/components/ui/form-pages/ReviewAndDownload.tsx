@@ -1,9 +1,10 @@
 import React from 'react';
+import FormHeading from '../FormHeading';
 
 const ReviewAndDownload = () => {
     return (
         <div>
-            <h1>Review and Download</h1>
+           <FormHeading title='Review & Download' description='Review your resume and download it in PDF format.'/>
         </div>
     );
 };

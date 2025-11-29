@@ -1,10 +1,12 @@
 import React from 'react';
+import FormHeading from '../FormHeading';
+import FadingContainer from '../FadingContainer';
 
 const AiResumeGenaration = () => {
     return (
-        <div>
-            <h1>Ai Resume Genaration</h1>
-        </div>
+        <FadingContainer>
+            <FormHeading title='AI Resume Magic' description=''/>
+        </FadingContainer>
     );
 };
 
