@@ -204,7 +204,6 @@ export const steps = [
     { id: 3, label: "Skills & Experience" },
     { id: 4, label: "Education Background" },
     { id: 5, label: "Your Certifications" },
-    { id: 6, label: "Contact Information" },
-    { id: 7, label: "AI Resume Generation" },
-    { id: 8, label: "Review & Download" },
+    { id: 6, label: "Contact Information" }, 
+    { id: 7, label: "Review & Download" },
 ]

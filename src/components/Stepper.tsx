@@ -22,8 +22,7 @@ const stepPages = [
     <SkillsAndExperience />,
     <EducationBackground />,
     <Certifications />,
-    <ContactInformation />,
-    <AiResumeGenaration />,
+    <ContactInformation />, 
     <ReviewAndDownload />,
 ];
 
