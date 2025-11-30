@@ -4,9 +4,10 @@ import { div } from "framer-motion/client";
 import Image from "next/image";
 import { useRef } from "react";
 import { usePDF } from 'react-to-pdf';
+import { ResumeState } from "../lib/features/resumeInfo/ResumeInfoSlice";
 
 
-export default function ResumeTemplate({ data }) {
+export default function ResumeTemplate({ data }: { data: ResumeState }) {
     const {
         firstName,
         lastName,
