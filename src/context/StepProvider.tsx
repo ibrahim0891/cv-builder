@@ -7,7 +7,7 @@ import StepContext from "./stepContext";
 import { useRouter } from "next/navigation";
 
 const StepProvider = ({ children }: { children: React.ReactNode }) => {
-    const [currentStep, setCurrentStep] = useState(6);
+    const [currentStep, setCurrentStep] = useState(0);
     const router = useRouter()
     
     return (
