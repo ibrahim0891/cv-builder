@@ -1,7 +1,7 @@
  
 
 ## About the project.
-This is a cv builder web application. User can input their detail information which are required for a resume. at the last page and cv will be created and user can download the pdf in one click. 
+This is a cv builder web application. User can input their detail information which are required for a resume. at the last page an cv will be created and user can download the pdf in one click. 
 
 
 ## Technology used. 
