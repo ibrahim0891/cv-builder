@@ -15,6 +15,13 @@ This is a cv builder web application. User can input their detail information wh
 First, run the development server:
 
 ```bash
+#clonen the project from this repository
+git clone https://github.com/ibrahim0891/cv-builder.git
+#Open the folder in IDE
+#Run this command to install the project
+pnpm install
+
+#then boot up the live server with- 
 npm run dev
 # or
 yarn dev
