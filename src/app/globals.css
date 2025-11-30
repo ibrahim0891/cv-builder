@@ -4,3 +4,12 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+label {
+    @apply font-semibold block mb-2;
+}
+
+input,textarea ,select{
+    @apply block w-full px-6 py-2 border border-gray-300 rounded-md focus:outline-none ; 
+}
+

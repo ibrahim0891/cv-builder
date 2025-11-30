@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Poppins } from "next/font/google";
 import "./globals.css";
+import { StoreProvider } from "@/proviers/StoreProider";
+import StepContext from "@/context/stepContext";
+import StepProvider from "@/context/StepProvider";
 
 
 const poppins = Poppins({
@@ -23,7 +26,11 @@ export default function RootLayout({
             <body
                 className={` antialiased`}
             >
-                {children}
+              <StepProvider>
+               <StoreProvider>
+                    {children}
+               </StoreProvider>
+              </StepProvider>
             </body>
         </html>
     );

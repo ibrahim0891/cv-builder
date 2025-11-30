@@ -9,7 +9,7 @@ export default function Step({ steps, currentStep }: StepperProps) {
     return (
         <div className="w-full flex items-start justify-between">
             {steps.map((step, i) => {
-                console.log(step);
+
                 const isActive = currentStep === i;
                 const isCompleted = currentStep >= i;
 
@@ -33,7 +33,7 @@ export default function Step({ steps, currentStep }: StepperProps) {
                             {String(step.id).padStart(2, "0")}
                         </div>
 
-                        <p className="text-center text-sm mt-2 text-gray-700 leading-tight w-24">
+                        <p className="text-center text-xs mt-2 text-gray-700 leading-tight w-24">
                             {step.label}
                         </p>
                     </div>
